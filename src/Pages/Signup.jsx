@@ -4,7 +4,7 @@ const SignupPage = () => {
   
 
   return (
-    <div className='mt-5 pt-5'>
+    <div className='mt-5 pt-5 mb-5 pb-5'>
       <Container>
         <h1 className="text-white mb-4 ">Sign Up for Cricket Lovers</h1>
         <Form>
@@ -23,7 +23,7 @@ const SignupPage = () => {
             <Form.Control type="password" placeholder="Enter a password" />
           </Form.Group>
 
-          <Button variant="primary" type="submit" className='mt-5 btn-secondary'>
+          <Button variant="primary" type="submit" className='mt-5 mb-5 btn-secondary'>
             Sign Up
           </Button>
         </Form>

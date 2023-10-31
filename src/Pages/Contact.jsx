@@ -1,9 +1,8 @@
 import { Container, Form, Button } from 'react-bootstrap';
-
 const ContactPage = () => {
   return (
-    <Container className='mt-5 pt-5'>
-      <h1 className='mt-5 pt-5'>Contact Us For More Offers</h1>
+    <Container className='mt-5 pt-5 app-container text-white'>
+      <h1 className='mt-5 pt-5 '>Contact Us For More Offers</h1>
       <Form>
         <Form.Group controlId="formBasicName">
           <Form.Label>Name</Form.Label>

@@ -1,24 +1,24 @@
-/* Styling for the service cards */
+
 .service-card {
-    background-color: #cee6ff; /* Card background color */
+  background-color: #b4ffa500;  
     border: none;
     transition: transform 0.2s, box-shadow 0.2s;
   }
   
-  /* Styling for the service titles */
   .service-title {
-    font-size: 1.25rem; /* Title font size */
+    font-size: 1.25rem; 
   }
   
-  /* Styling for the service descriptions */
+
   .service-description {
-    font-size: 1rem; /* Description font size */
-    color: #6c757d; /* Description text color */
+    font-size: 1rem; 
+    color: #a7a7a7; 
   }
   
-  /* Hover effect for the service cards */
+
   .service-card:hover {
-    transform: scale(1.05); /* Enlarge the card on hover */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a box shadow on hover */
-  }
+    transform: scale(1.05); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: #000000; 
+    }
   

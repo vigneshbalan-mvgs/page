@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import './App.css'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -12,6 +12,8 @@ import Footer from "./Pages/Footer";
 
 function App() {
   return (
+    <div className="app-container">
+      
     <BrowserRouter>
 
       <NavbarComponent />
@@ -24,6 +26,7 @@ function App() {
       <Footer />
    
     </BrowserRouter>
+    </div>
   );
 }
 

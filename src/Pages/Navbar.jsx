@@ -6,10 +6,11 @@ import Navbar from 'react-bootstrap/Navbar';
 function NavbarComponent() {
   return (
       
-  
-      <Navbar expand="lg" className="bg-body-tertiary mb-5">
+      <div >
+      
+      <Navbar expand="lg" className="bg-body-tertiary bg mb-5">
       <Container >
-        <Navbar.Brand href="#home">CrickS</Navbar.Brand>
+        <Navbar.Brand href="/">CrickS</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
@@ -21,6 +22,7 @@ function NavbarComponent() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+      </div>
 
 
 
